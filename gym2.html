@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Feedback</title>
+    <link rel="stylesheet" href="gym2.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Gym</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="http://127.0.0.1:5500/gym.html">Home</a></li>
+            <li><a href="http://127.0.0.1:5500/time.html">Timetable</a></li>
+            <li><a href="http://127.0.0.1:5500/equipment.html">Equipment Complaints</a></li>
+            <li><a href="#">Feedback</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="feedback">
+            <h2>Feedback Form</h2>
+            <form action="#" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="Branch">Branch</label>
+                <input type="text">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="feedback">Feedback:</label>
+                <textarea id="feedback" name="feedback" rows="4" required></textarea>
+                
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Our Gym. All rights reserved.</p>
+    </footer>
+</body>
+</html>

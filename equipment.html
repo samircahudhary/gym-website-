@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipment Complaint Form</title>
+    <link rel="stylesheet" href="equipment.css">
+</head>
+<body>
+    <header>
+        <h1>Report Gym Equipment Issues</h1>
+    </header>
+    <main>
+        <section id="complaint-form">
+            <h2>Equipment Complaint Form</h2>
+            <form action="#" method="POST">
+                <label for="username">Name:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="branch">Branch:</label>
+                <input type="text" id="username" name="branch" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="equipment">Equipment:</label>
+                <select id="equipment" name="equipment" required>
+                    <option value="choose">Select:</option>
+                    <option value="treadmill">Treadmill</option>
+                    <option value="elliptical">Elliptical</option>
+                    <option value="stationary_bike">Stationary Bike</option>
+                    <option value="rowing_machine">Rowing Machine</option>
+                    <option value="dumbbells">Dumbbells</option>
+                    <option value="bench_press">Bench Press</option>
+                    <option value="leg_press">Leg Press</option>
+                    <!-- Add more equipment options as needed -->
+                </select>
+
+                <label for="issue">Issue Description:</label>
+                <textarea id="issue" name="issue" rows="4" required></textarea>
+
+                <button type="submit">Submit Complaint</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Our Gym. All rights reserved.</p>
+    </footer>
+</body>
+</html>

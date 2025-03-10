@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+.top-bar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.top-bar .phone-number,
+.top-bar .hours {
+    margin: 0 10px;
+}
+
+nav {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 2vw;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: xx-large;
+    justify-items:space-evenly;text-align: center;
+}
+nav ul li a:hover{
+    color: rgb(128, 0, 0);
+    font-size: 2.02em;
+}
+
+.hero {
+    background-image: url('danielle-cerullo-CQfNt66ttZM-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin: 10px 0;
+}
+
+.hero p {
+    font-size: 1em;
+    margin: 20px 0;
+}
+
+.cta-button {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 5px;
+}
+.cta-button:hover{
+    background-color: #ef1800;
+    font-size: 1.05em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
