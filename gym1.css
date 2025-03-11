@@ -1,5 +1,6 @@
 /* CSS Styles */
 body {background-image: url('beastmode.jpg');
+    position:sticky;
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;

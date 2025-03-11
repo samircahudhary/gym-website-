@@ -95,7 +95,40 @@ nav ul li a:hover{
 
 
 
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+}
+.text-content {
+    flex: 1;
+    padding: 50px;
+}
+.text-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.text-content .cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #ff4d4d;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+}
 
+.page1{background-image: url('3d-gym-equipment copy.jpg'); 
+background-size: cover; padding: 5px;
+background-position: center;position: relative;
+height: 50vw;}
+
+.page2{font-weight: 900;font-size: 4vw;
+ background-color: #060606; 
+opacity: .7;}
 
 
 

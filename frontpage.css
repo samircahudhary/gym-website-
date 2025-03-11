@@ -1,0 +1,155 @@
+*{padding: 0;margin: 0;}
+
+.nav{display: flex; justify-content: space-evenly; align-items: center;
+font-weight: bolder;
+font-family:Arial, Helvetica, sans-serif;
+font-size: 1.5vw; color: aliceblue; 
+background-color:#00000075;
+position:sticky;top: 0;}
+
+body{background:linear-gradient(to right,black,rgba(0, 0, 0, 0.79),rgb(25, 66, 71))}
+.p1{font-size: 10vw;font-weight: bolder;margin: 3vw;}
+.p2{font-size: 8vw;font-weight: bold;}
+.p3{font-size: 7vw;font-weight: bolder;color: whitesmoke;margin: 2vw;}
+
+
+#button1{height: 2.5vw; width: 10vw;background-color: #d000ff;
+  margin: .5vw;border-radius: 5px; font-size: large; margin: 2vw;}
+.blur-glowing-border {
+    
+    margin-top: 10vw;margin-left: 5vw;
+    width: 550px;
+    height: 640px;
+    border-radius: 20px; /* Optional, for rounded corners */
+    border: 2px solid transparent;
+    background: linear-gradient(rgb(33, 24, 24), rgb(122, 119, 119)) padding-box, 
+                linear-gradient(45deg, #ff000009, #ffbb00, #0000ff) border-box;
+    animation: blur-glow 5s infinite;
+    box-shadow: 1px 1px 2px 1px #ff0000, 0 0 3px 5px #ff7b00, 0 0 4px 2px #0000ff;
+  }
+  
+  @keyframes blur-glow {
+    10% {
+      box-shadow: 3px 1px 2px 3px #ff000016, 0 0 30px 15px #a200ff, 0 0 40px 20px #0000ff;
+    }
+    20% {
+      box-shadow: 0 0 5px 5px #ff00d4, 0 0 15px 20px #0000ff, 0 0 4px 5px #ff0000;
+    }
+    30% {
+      box-shadow: 0 0 2px 1px #ff00004c, 0 0 13px 15px #9500ff, 0 0 4px 2px #0000ff;
+    }
+  }
+
+  h1{text-align: center;color:gray}
+  h3{font-size: 1.09vw;color: rgb(36, 36, 35);}
+  
+
+
+
+  .glowing-button {
+    margin-top: -5vw;margin-left: 35vw;
+    position: absolute;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: white;
+    background: linear-gradient(45deg, #00ffaa, #ff00d0);
+    border: none;
+    border-radius: 25px; /* Rounded corners */
+    cursor: pointer;
+    box-shadow: 0 0 10px #ff000048, 0 0 20px #482f1b, 0 0 30px #ff7300;
+    transition: .3s ease-in-out; 
+  }
+  
+  .glowing-button:hover {
+    
+    box-shadow: 0 0 20px #ff00a2, 0 0 40px #a600ff, 0 0 60px #375b63;
+    background: linear-gradient(45deg, #000000, #04b2be); /* Gradient shift on hover */
+    transform: scale(1.1); 
+    
+  }
+  
+
+  .robo{position: absolute;
+    height: 58vw;width: 50vw;
+    margin-top: -55vw;
+right: 0;}
+
+
+
+
+
+.container {
+  
+  padding: 20px;
+  max-width: 800px;
+  background: linear-gradient(to bottom right, #ffffff, #e0e0e0);
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.feature {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.feedback {
+  border-left: 6px solid #ff5722;
+  background-color: #fff8f6;
+}
+.buying {
+  border-left: 6px solid #4caf50;
+  background-color: #f6fff8;
+}
+.fun-facts {
+  border-left: 6px solid #2196f3;
+  background-color: #f6f8ff;
+}
+.health {
+  border-left: 6px solid #e91e63;
+  background-color: #fff6fb;
+}
+.education {
+  border-left: 6px solid #9c27b0;
+  background-color: #fbf6ff;
+}
+.gym-timetable {
+  border-left: 6px solid #ffc107;
+  background-color: #fffdf6;
+}
+h2 {
+  margin: 0 0 10px;
+  font-size: 1.2rem;
+  color: #333;
+}
+p {
+  margin: 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+#login{font-weight: bolder;color: #2196f3;font-size: 1.5vw;}
+   #button{height: 2.5vw; width: 6vw;background-color: #d000ff;
+  margin: .5vw;border-radius: 5px; font-size: large;margin-left: 2vw;}
+  #button:hover{background-color: #d000ffb6;
+    border-radius: 5px; font-size: large;}
+
+
+
+
+
+
+    .details{ margin: 3vw;height:600px; width:  93vw; display: flex;
+      background:linear-gradient(to right,black,rgba(0, 0, 0, 0.79),rgb(25, 66, 71))}
+      
+.program{padding: 5vw;margin: 2vw; margin-bottom: 5px;}
+.h{font-size: xx-large;color: #9500ff;margin-bottom: 5px;}
+.s1{margin:20px;font-size: larger;font-weight: 900;color: #f6fff8;}
+.s2{margin:20px;font-size: larger;font-weight: 900;color: #f6fff8;}
+.s3{margin:20px;font-size: larger;font-weight: 900;color: #f6fff8;}
+.s4{margin:20px;font-size: larger;font-weight: 900;color: #f6fff8;}
+
+
+.contact{padding: 5vw;margin: 2vw; margin-bottom: 5px; }
+
+      .mega{color: #e0e0e0; margin-top: 10%;margin-left: 10px;font-weight: 800;
+      font-size: 2vw;}
