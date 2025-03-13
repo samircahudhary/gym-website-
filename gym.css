@@ -9,31 +9,38 @@ body {
 .top-bar {
     background-color: #333;
     color: #fff;
-    padding: 10px;
+    padding: 1vw;
     text-align: center;
 }
 
 .top-bar .phone-number,
 .top-bar .hours {
-    margin: 0 10px;
+    margin: 0 1vw;
 }
 
-nav {
+nav {display: flex;
+    justify-content: space-between; /* Spreads items across the bar */
+    align-items: center;
     background-color: #000;
     color: #fff;
-    padding: 10px 0;
+    padding: .5vw 0;
     text-align: center;
+    position: sticky;top: 0;
+    z-index: 1000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 
 nav ul {
-    list-style: none;
+    list-style:armenian;
     margin: 0;
     padding: 0;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 2vw;
+    margin: 0 2.6vw;
+    
 }
 
 nav ul li a {
@@ -42,6 +49,7 @@ nav ul li a {
     font-size: xx-large;
     justify-items:space-evenly;text-align: center; 
     border:  rebeccapurple 2px;padding: .2vw; border: outset;
+    
     
 }
 nav ul li a:hover{

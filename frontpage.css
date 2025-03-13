@@ -18,8 +18,8 @@ body{background:linear-gradient(to right,black,rgba(0, 0, 0, 0.79),rgb(25, 66, 7
 .blur-glowing-border {
     
     margin-top: 10vw;margin-left: 5vw;
-    width: 550px;
-    height: 640px;
+    width: 35vw;
+    height: 35.5vw;
     border-radius: 20px; /* Optional, for rounded corners */
     border: 2px solid transparent;
     background: linear-gradient(rgb(33, 24, 24), rgb(122, 119, 119)) padding-box, 
@@ -47,7 +47,7 @@ body{background:linear-gradient(to right,black,rgba(0, 0, 0, 0.79),rgb(25, 66, 7
 
 
   .glowing-button {
-    margin-top: -5vw;margin-left: 35vw;
+    margin-top: -5vw;margin-left: 38vw;
     position: absolute;
     padding: 15px 30px;
     font-size: 16px;
@@ -70,8 +70,8 @@ body{background:linear-gradient(to right,black,rgba(0, 0, 0, 0.79),rgb(25, 66, 7
   
 
   .robo{position: absolute;
-    height: 58vw;width: 50vw;
-    margin-top: -55vw;
+    height: 50vw;width: 45vw;
+    margin-top: -47vw;
 right: 0;}
 
 
@@ -80,8 +80,10 @@ right: 0;}
 
 .container {
   
-  padding: 20px;
-  max-width: 800px;
+  padding: 2vw;
+  width: 90%;
+  
+  
   background: linear-gradient(to bottom right, #ffffff, #e0e0e0);
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -131,7 +133,7 @@ p {
    #button{height: 2.5vw; width: 6vw;background-color: #d000ff;
   margin: .5vw;border-radius: 5px; font-size: large;margin-left: 2vw;}
   #button:hover{background-color: #d000ffb6;
-    border-radius: 5px; font-size: large;}
+     font-size: large;}
 
 
 
@@ -151,5 +153,5 @@ p {
 
 .contact{padding: 5vw;margin: 2vw; margin-bottom: 5px; }
 
-      .mega{color: #e0e0e0; margin-top: 10%;margin-left: 10px;font-weight: 800;
+      .mega{color: #e0e0e0; margin-top: 10%;margin-left: 1vw;font-weight: 800;
       font-size: 2vw;}
