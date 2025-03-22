@@ -3,88 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Responsive Fitness Website</title>
     <link rel="stylesheet" href="frontpage.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 </head>
-<nav class="nav">
-    <li>Home</li>
-    <a href="https://fitnessfirst.net.in/"><li style="color: aliceblue;">Clubs</li></a>
-    <li>Contact us</li>
-    <p id="login"> LOGIN
-       <a href="index1.html"><button  id="button" > JOIN NOW</button></p></a>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark nav">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Fitness First</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://fitnessfirst.net.in/">Clubs</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index1.html">LOGIN</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index1.html"><button class="btn btn-primary">JOIN NOW</button></a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </nav>
 
-  <div><button id="button1">New Program Launch </button></div><br> <br>
-  <span class="p1" style="color: rgb(243, 243, 243);">REDIFINE</span>
-  <span class="p2" style="color: rgb(216, 51, 231);">YOUR</span>
-  <P class="p3">LIMITS</P>
+<!-- Hero Section -->
+<div class="text-center mt-5">
+    <button id="button1" class="btn btn-warning">New Program Launch</button><br><br>
+    <h1 class="text-light"> <span class="p1">REDIFINE</span> <span class="p2 "> <br>YOUR</span> <span class="p3">LIMITS</span></h1>
+</div>
 
-
-
-<body>
-    <div class="blur-glowing-border"> 
-        <div class="container">
-            <div class="feature feedback">
+<!-- Features Section -->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6 col-lg-4">
+            <div class="feature feedback p-3 bg-light rounded">
                 <h2>Feedback</h2>
                 <p>We value your input! Share your thoughts to help us improve.</p>
             </div>
-            <div class="feature buying">
+        </div>
+        <div class="col-md-6 col-lg-4">
+            <div class="feature buying p-3 bg-light rounded">
                 <h2>Buying</h2>
                 <p>Explore our shop for exclusive products and offers.</p>
             </div>
-            <div class="feature fun-facts">
+        </div>
+        <div class="col-md-6 col-lg-4">
+            <div class="feature fun-facts p-3 bg-light rounded">
                 <h2>Fun Facts</h2>
                 <p>Discover interesting and quirky tidbits every day!</p>
             </div>
-            <div class="feature health">
+        </div>
+        <div class="col-md-6 col-lg-4">
+            <div class="feature health p-3 bg-light rounded">
                 <h2>Health</h2>
                 <p>Your wellness is our priority. Get tips and resources here.</p>
             </div>
-            <div class="feature education">
+        </div>
+        <div class="col-md-6 col-lg-4">
+            <div class="feature education p-3 bg-light rounded">
                 <h2>Education</h2>
                 <p>Access valuable learning materials and courses.</p>
             </div>
-            <div class="feature gym-timetable">
+        </div>
+        <div class="col-md-6 col-lg-4">
+            <div class="feature gym-timetable p-3 bg-light rounded">
                 <h2>Gym Timetable</h2>
                 <p>Plan your workouts with our updated schedules.</p>
             </div>
-
-            
+        </div>
     </div>
-   <a href="index1.html"> <button class="glowing-button">Click For Explore The World Of Fitness </button></a>
-    
+</div>
 
-   
-    
-    <iframe class="robo" src='https://my.spline.design/nexbotrobotcharacterconcept-56f1349f6dc06f2ad62a8d88ba3b0dab/' frameborder='0' ></iframe>
-    
+<!-- Call to Action -->
+<div class="text-center my-5">
+    <a href="index1.html">
+        <button class="btn btn-success btn-lg">Click To Explore The World Of Fitness</button>
+    </a>
+</div>
 
-    
+<!-- Embedded 3D Model -->
+<div class="container text-center">
+    <iframe class="robo w-100" style="height: 700px;" src='https://my.spline.design/nexbotrobotcharacterconcept-56f1349f6dc06f2ad62a8d88ba3b0dab/' frameborder='0'></iframe>
+</div>
 
-            
-  <div class="details"> 
-    <div class="program">
-        <h2 class="h">PROGRAM</h2>
-        <p class="s1">Strength Traning</p>
-        <p class="s2"> Cardio Classes</p>
-        <p class="s3">HIIT Workouts</p>
-        <p class="s3">Yoga & Flexibility</p>
-        <p class="s4"> Personal Training</p>
+<!-- Details Section -->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="program p-3  text-white rounded">
+                <h2 class="h">PROGRAM</h2>
+                <p class="s1">Strength Training</p>
+                <p class="s2">Cardio Classes</p>
+                
+                <p class="s3">Yoga & Flexibility</p>
+                <p class="s4">Personal Training</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="contact p-3  text-white rounded">
+                <h2 class="h">CONTACT</h2>
+                <p class="s1">GYM OWNER SOURAV CHAUDHARY</p>
+                <p class="s2">MATHURA U.P</p>
+                <p class="s3">SOURAV@gmail.com</p>
+                <p class="s3">+91 952852854</p>
+            </div>
+        </div>
     </div>
+</div>
 
-    <div class="contact">
-        <h2 class="h">CONTACT</h2>
-        <p class="s1">GYM OWNER SOURAV CHAUDHARY</p>
-        <p class="s2"> MATHURA U.P</p>
-        <p class="s3">SOURAV111@gmail.com</p>
-        <p class="s3">+91952852854</p>
-        
-  </div> 
-  <div class="mega">Redefining fitness with innovative programs,<br> expert coaching, <br> and a supportive community.
+<!-- Footer -->
+<footer class="text-center p-4 bg-dark text-white mt-5">
+    <p>Redefining fitness with innovative programs, expert coaching, and a supportive community.</p>
+    <a href="#" class="text-light mx-2">Instagram</a> |
+    <a href="#" class="text-light mx-2">Facebook</a>
+</footer>
 
-    Instagram
-    Facebook
-    </div> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
-
 </html>
